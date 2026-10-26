@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    background-color: #97D7FF;
+}
+
+a {
+    text-decoration: none;
+    color: #086288;
+    font-weight: bold;
+}
+a:hover {
+    color: #FFEFC4;
+}
+
+.logo{
+    border-radius: 10px;
+}
+
+nav{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: gray;
+    display: none;
+}
+
+.toolbox {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+}
+
+.grid {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.eraser {
+    padding: 0 7px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    height: 30px;
+    width: 15px;
+}
+
+.save {
+    padding: 0 3px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    height: 30px;
+}
+
+.color-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.editorBtn {
+    cursor: pointer;
+}
+
+.homeBtn {
+    cursor: pointer;
+}
